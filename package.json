@@ -1,0 +1,37 @@
+{
+  "name": "uber-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "graphql-yoga": "^1.18.3",
+    "helmet": "^3.22.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/helmet": "0.0.45",
+    "@types/morgan": "^1.9.0",
+    "@types/node": "^13.9.5",
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.8.1",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.8.3"
+  },
+  "scripts": {
+    "dev": "cd src && nodemon --exec ts-node index.ts -e ts,graphql",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brook-kim/uber-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brook-kim/uber-server/issues"
+  },
+  "homepage": "https://github.com/brook-kim/uber-server#readme"
+}
